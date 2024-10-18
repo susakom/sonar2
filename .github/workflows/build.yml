@@ -1,20 +1,35 @@
-name: Build
+name: Build and analyze with SonarCloud
+
 on:
   push:
     branches:
       - development
   pull_request:
     types: [opened, synchronize, reopened]
+
 jobs:
   sonarcloud:
     name: SonarCloud
     runs-on: ubuntu-latest
+
     steps:
+      # Checkout the repository code
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+          fetch-depth: 0  # Disable shallow clone for better relevancy of analysis
+
+      # Install Node.js dependencies (for JS/TS projects, если требуется)
+      - name: Install dependencies
+        run: npm install  # Или другая команда для установки зависимостей
+
+      # Run SonarCloud analysis
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        with:
+          args: >
+            -Dsonar.projectKey=susakom_sonar2
+            -Dsonar.organization=Oleksandr Susak
+            -Dsonar.host.url=https://sonarcloud.io
