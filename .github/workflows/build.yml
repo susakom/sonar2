@@ -19,8 +19,8 @@ jobs:
           fetch-depth: 0  # Disable shallow clone for better relevancy of analysis
 
       # Install Node.js dependencies (for JS/TS projects, если требуется)
-      - name: Install dependencies
-        run: npm install  # Или другая команда для установки зависимостей
+      # - name: Install dependencies
+      #  run: npm install  # Или другая команда для установки зависимостей
 
       # Run SonarCloud analysis
       - name: SonarCloud Scan
