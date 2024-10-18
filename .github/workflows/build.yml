@@ -31,5 +31,5 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=susakom_sonar2
-            -Dsonar.organization=Oleksandr_Susak
+            -Dsonar.organization=susakom
             -Dsonar.host.url=https://sonarcloud.io
