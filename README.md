@@ -2,7 +2,7 @@
 
 [![GitHub license](https://img.shields.io/github/license/EventsExpress/EventsExpress)](https://github.com/EventsExpress/EventsExpress/blob/development/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/EventsExpress/EventsExpress)](https://github.com/EventsExpress/EventsExpress/stargazers) [![GitHub issues](https://img.shields.io/github/issues/EventsExpress/EventsExpress)](https://github.com/EventsExpress/EventsExpress/issues) ![Azure DevOps releases](https://img.shields.io/azure-devops/release/eventsexpress/46233450-fa01-4466-a42e-edc2a4290086/4/4) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=ita-social-projects-events-express&metric=coverage)](https://sonarcloud.io/dashboard?id=ita-social-projects-events-express) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ita-social-projects-events-express&metric=alert_status)](https://sonarcloud.io/dashboard?id=ita-social-projects-events-express)
 
-> Start as Friends, Go Anywhere! Real Relationships for Singles Worldwide   
+> Start as Friends, Go Anywhere! Real Relationships for Singles Worldwide     
 
 Want to hang out with company but don't know who whith? Then this application for you! 
 You can join any existing event or create your own one. Find the people, chatting them, following most interesting. 
