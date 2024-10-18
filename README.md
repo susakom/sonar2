@@ -6,7 +6,7 @@
 
 Want to hang out with company but don't know who whith? Then this application for you! 
 You can join any existing event or create your own one. Find the people, chatting them, following most interesting. 
-And loads of other enjoyed things to do.
+And loads of other enjoyed things to do.  
 
 ## For contributors
 ### Project setup
